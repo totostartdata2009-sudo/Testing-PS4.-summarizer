@@ -1,0 +1,123 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- Sky Gradient -->
+    <path android:pathData="M0,0 L1080,0 L1080,1200 L0,1200 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="0"
+                android:endX="540"
+                android:endY="1200"
+                android:type="linear">
+                <item android:color="#FF1A0B2E" android:offset="0.0"/>
+                <item android:color="#FF38154C" android:offset="0.3"/>
+                <item android:color="#FF6B2D5C" android:offset="0.6"/>
+                <item android:color="#FFB85B56" android:offset="0.85"/>
+                <item android:color="#FFE88D67" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Sun / Horizon Glow -->
+    <path android:pathData="M540,920 m-160,0 a160,160 0 1,0 320,0 a160,160 0 1,0 -320,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="760"
+                android:endX="540"
+                android:endY="1080"
+                android:type="linear">
+                <item android:color="#FFFFE29D" android:offset="0.0"/>
+                <item android:color="#FFFFB07C" android:offset="0.6"/>
+                <item android:color="#00FF8C69" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Far Distant Mountain Silhouette -->
+    <path
+        android:pathData="M0,960 L120,900 L280,940 L450,860 L620,930 L780,870 L950,920 L1080,880 L1080,1100 L0,1100 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="860"
+                android:endX="540"
+                android:endY="1100"
+                android:type="linear">
+                <item android:color="#FF4A2A4B" android:offset="0.0"/>
+                <item android:color="#FF2E1B38" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Near Mountain Range -->
+    <path
+        android:pathData="M0,1020 L180,920 L350,980 L520,890 L710,970 L880,910 L1080,980 L1080,1150 L0,1150 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="890"
+                android:endX="540"
+                android:endY="1150"
+                android:type="linear">
+                <item android:color="#FF221830" android:offset="0.0"/>
+                <item android:color="#FF130F21" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ocean Water Gradient -->
+    <path android:pathData="M0,1050 L1080,1050 L1080,1920 L0,1920 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="1050"
+                android:endX="540"
+                android:endY="1920"
+                android:type="linear">
+                <item android:color="#FF1D3E53" android:offset="0.0"/>
+                <item android:color="#FF255C69" android:offset="0.25"/>
+                <item android:color="#FF164352" android:offset="0.6"/>
+                <item android:color="#FF0C2231" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sun Reflection on Ocean -->
+    <path android:pathData="M440,1050 L640,1050 L720,1920 L360,1920 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="1050"
+                android:endX="540"
+                android:endY="1920"
+                android:type="linear">
+                <item android:color="#80FFC599" android:offset="0.0"/>
+                <item android:color="#304DE0A8" android:offset="0.4"/>
+                <item android:color="#000C2231" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ocean Waves and Shimmer lines -->
+    <path
+        android:pathData="M0,1120 Q270,1100 540,1120 T1080,1120 L1080,1126 Q540,1106 0,1126 Z"
+        android:fillColor="#40FFFFFF" />
+    <path
+        android:pathData="M0,1200 Q270,1180 540,1200 T1080,1200 L1080,1208 Q540,1188 0,1208 Z"
+        android:fillColor="#306EEBCE" />
+    <path
+        android:pathData="M0,1310 Q270,1290 540,1310 T1080,1310 L1080,1320 Q540,1300 0,1320 Z"
+        android:fillColor="#255CE1E6" />
+    <path
+        android:pathData="M0,1450 Q270,1430 540,1450 T1080,1450 L1080,1462 Q540,1442 0,1462 Z"
+        android:fillColor="#1F82F0E0" />
+    <path
+        android:pathData="M0,1620 Q270,1600 540,1620 T1080,1620 L1080,1635 Q540,1615 0,1635 Z"
+        android:fillColor="#1A4DE0C8" />
+</vector>

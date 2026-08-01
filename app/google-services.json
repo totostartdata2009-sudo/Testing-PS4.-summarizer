@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "811088017095",
+    "project_id": "voice-summary-ai-bacc0",
+    "storage_bucket": "voice-summary-ai-bacc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811088017095:android:5c6eef5a27dc9ea43130e2",
+        "android_client_info": {
+          "package_name": "com.mojamgazi.voicesummaryai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811088017095-hepnp782m085tmi7qp14630pnph19ga3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzfD18CegJs-vGcOOqj3m8bKS05yATAKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811088017095-hepnp782m085tmi7qp14630pnph19ga3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

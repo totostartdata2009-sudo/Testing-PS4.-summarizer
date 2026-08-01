@@ -1,0 +1,82 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- Deep Royal Luxury Background Base -->
+    <path android:pathData="M0,0 L1080,0 L1080,1920 L0,1920 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="540"
+                android:startY="0"
+                android:endX="540"
+                android:endY="1920"
+                android:type="linear">
+                <item android:color="#FF0D0714" android:offset="0.0"/>
+                <item android:color="#FF1A0D2E" android:offset="0.35"/>
+                <item android:color="#FF2D123F" android:offset="0.7"/>
+                <item android:color="#FF12081E" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Radiant Light Burst (Top Center) -->
+    <path
+        android:pathData="M540,250m-450,0a450,450 0 1,0 900,0a450,450 0 1,0 -900,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="540"
+                android:centerY="250"
+                android:gradientRadius="450"
+                android:type="radial">
+                <item android:color="#60FFD700" android:offset="0.0"/>
+                <item android:color="#35FFA000" android:offset="0.4"/>
+                <item android:color="#10B76DFF" android:offset="0.7"/>
+                <item android:color="#00000000" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Light Beams -->
+    <path android:pathData="M540,0 L180,1920 L300,1920 L540,0 Z" android:fillColor="#0AFFD700" />
+    <path android:pathData="M540,0 L780,1920 L900,1920 L540,0 Z" android:fillColor="#0AFFD700" />
+    <path android:pathData="M540,0 L420,1920 L500,1920 L540,0 Z" android:fillColor="#12FFD700" />
+    <path android:pathData="M540,0 L580,1920 L660,1920 L540,0 Z" android:fillColor="#12FFD700" />
+
+    <!-- Royal Golden Crown Emblem Watermark Silhouette (Background Center) -->
+    <path
+        android:pathData="M240,480 L320,240 L540,380 L760,240 L840,480 Z"
+        android:fillColor="#10FFD700" />
+    <path
+        android:pathData="M240,500 L840,500 C860,500 880,480 880,460 L880,420 L200,420 L200,460 C200,480 220,500 240,500 Z"
+        android:fillColor="#15FFD700" />
+
+    <!-- Floating Sparkles & Crystal Gems -->
+    <path android:pathData="M180,180 L200,220 L220,180 L200,140 Z" android:fillColor="#40FFD700" />
+    <path android:pathData="M880,320 L895,350 L910,320 L895,290 Z" android:fillColor="#50FFF099" />
+    <path android:pathData="M140,820 L155,850 L170,820 L155,790 Z" android:fillColor="#35FFD700" />
+    <path android:pathData="M920,980 L940,1020 L960,980 L940,940 Z" android:fillColor="#40FFD700" />
+
+    <path android:pathData="M320,150m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" android:fillColor="#60FFFFFF" />
+    <path android:pathData="M760,180m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" android:fillColor="#80FFD700" />
+    <path android:pathData="M220,1200m-10,0a10,10 0 1,0 20,0a10,10 0 1,0 -20,0" android:fillColor="#30FFD700" />
+    <path android:pathData="M860,1400m-12,0a12,12 0 1,0 24,0a12,12 0 1,0 -24,0" android:fillColor="#40FFD700" />
+
+    <!-- Bottom Golden Horizon Glow -->
+    <path
+        android:pathData="M540,1920m-600,0a600,600 0 1,0 1200,0a600,600 0 1,0 -1200,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="540"
+                android:centerY="1920"
+                android:gradientRadius="600"
+                android:type="radial">
+                <item android:color="#40FFD700" android:offset="0.0"/>
+                <item android:color="#20FF8C00" android:offset="0.5"/>
+                <item android:color="#00000000" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
